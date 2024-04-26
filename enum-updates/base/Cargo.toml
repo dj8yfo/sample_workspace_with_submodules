@@ -1,0 +1,17 @@
+[package]
+name = "enums-base"
+version = "1.0.0"
+authors = ["Near Inc <hello@near.org>"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[package.metadata.near.reproducible_build]
+image = "dj8yfo/sourcescan:0.x.x-dev-cargo-near-build-cmd-repo"
+image_digest = "sha256:05c572f2326fdbb2e16b8488694d8280e32fa4ca6501085c1b39f61356b3040b"
+container_build_command = "cargo near build --no-release --no-doc"
+source_code_git_url = "https://github.com/dj8yfo/sample_workspace.git"
+
+[dependencies]
+near-sdk = { version = "5.1.0", features = ["legacy"] }

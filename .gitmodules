@@ -1,0 +1,3 @@
+[submodule "self-updates/update"]
+	path = self-updates/update
+	url = https://github.com/dj8yfo/module.git
