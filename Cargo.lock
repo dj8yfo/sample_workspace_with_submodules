@@ -2187,7 +2187,7 @@ dependencies = [
 [[package]]
 name = "near-sdk"
 version = "5.1.0"
-source = "git+https://github.com/dj8yfo/near-sdk-rs.git?branch=add_contract_metadata#d7c9d0b7844de9cdf10ca574a843c9cc3cbaf5a6"
+source = "git+https://github.com/dj8yfo/near-sdk-rs.git?branch=add_contract_metadata#b3bd35c2bedea97dd63e4f4dc4ac6b2c3f86f2eb"
 dependencies = [
  "base64 0.21.7",
  "borsh 1.5.0",
@@ -2223,7 +2223,7 @@ dependencies = [
 [[package]]
 name = "near-sdk-macros"
 version = "5.1.0"
-source = "git+https://github.com/dj8yfo/near-sdk-rs.git?branch=add_contract_metadata#d7c9d0b7844de9cdf10ca574a843c9cc3cbaf5a6"
+source = "git+https://github.com/dj8yfo/near-sdk-rs.git?branch=add_contract_metadata#b3bd35c2bedea97dd63e4f4dc4ac6b2c3f86f2eb"
 dependencies = [
  "Inflector",
  "darling",
@@ -2251,7 +2251,7 @@ checksum = "397688591acf8d3ebf2c2485ba32d4b24fc10aad5334e3ad8ec0b7179bfdf06b"
 [[package]]
 name = "near-sys"
 version = "0.2.1"
-source = "git+https://github.com/dj8yfo/near-sdk-rs.git?branch=add_contract_metadata#d7c9d0b7844de9cdf10ca574a843c9cc3cbaf5a6"
+source = "git+https://github.com/dj8yfo/near-sdk-rs.git?branch=add_contract_metadata#b3bd35c2bedea97dd63e4f4dc4ac6b2c3f86f2eb"
 
 [[package]]
 name = "near-token"
