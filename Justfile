@@ -1,4 +1,4 @@
-contract := "sample-crate-in-submodule-12.testnet"
+contract := "sample-crate-in-submodule-13.testnet"
 
 # cleanup in symlinked dir
 create-dev-acc:
